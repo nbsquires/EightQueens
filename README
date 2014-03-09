@@ -1,0 +1,39 @@
+Author: Natasha Squires
+
+Thie project was tested on Ubuntu 12.04
+
+FILE MANIFEST:
+
+* Java files:
+	- /src/Queen.java - Represents a Queen chess piece
+	- /src/Node.java - Represents an AI node which handles information
+		           about 8 Queens
+	- /src/HillClimbing.java - Implementation of the hill climbing
+				   algorithm
+	- /src/RandomRestart.java - Implements the random restart hill 
+				    climbing algorithm
+	- /src/SimulatedAnnealing.java - Implements the Simulated Annealing
+                                         algorithm
+	- /src/EightQueens.java - Solves the eight queens problem using
+				  using various AI techniques
+
+* class files:
+	- /bin/Queen.class 
+	- /bin/Node.class
+	- /bin/HillClimbing.class
+	- /bin/RandomRestart.class
+	- /bin/SimulatedAnnealing.class
+
+HOW TO COMPILE AND RUN:
+To compile:
+The compiled code is found in the /bin/ folder, however...
+$ javac Queen.java
+$ javac Node.java
+$ javac HillClimbing.java
+$ javac RandomRestart.java
+$ javac SimulatedAnnealing.java
+$ javac EightQueens.java
+
+to run:
+Make sure you are in /bin/, or in a directory with the .class files...
+$ java EightQueens
