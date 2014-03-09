@@ -1,17 +1,14 @@
 /**
  * @file EightQueens.java
  * @author nsquires
- * Solves the eight queens problem using 
+ * Solves the eight queens problem using various AI techniques
  */
 import java.util.*;
-import java.io.*;
 import java.text.NumberFormat;
 
 public class EightQueens {
-	private File file;
 	
 	public EightQueens(){
-		file = new File("results.dat");
 	}
 	
 	public static void main(String[] args){
